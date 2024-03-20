@@ -39,4 +39,13 @@ public class PropertyTest
     public void tearDown()
     {
     }
+    
+    @Test
+    public void testConstructor(){
+    
+        Property property1 = new Property("T3 Monte Belo", 150000.0);
+        System.out.println(property1);
+    
+    }
+
 }

@@ -18,10 +18,12 @@ public class Property {
      *
      * @param description The property description.
      * @param price The property price.
+     * @param id The property Id.
      */
-    public Property(String description, double price) {
+    public Property(String description, double price){
         this.description = description;
         this.price = price;
+        this.id = ++numberOfProperties;
     }
 
     /**
@@ -69,5 +71,7 @@ public class Property {
 
     @Override
     public String toString() {
+        String formato = "Descrição: " + getDescription() + "\nPreço: " + getPrice();
+        return formato;
     }
 }

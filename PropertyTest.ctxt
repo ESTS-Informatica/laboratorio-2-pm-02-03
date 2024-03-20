@@ -10,4 +10,6 @@ comment2.text=\r\n\ Define\ a\ 'fixture'\ do\ teste.\r\n\r\n\ Chamado\ antes\ de
 comment3.params=
 comment3.target=void\ tearDown()
 comment3.text=\r\n\ Desfaz\ a\ 'fixture'\ do\ teste.\r\n\r\n\ Chamado\ ap\u00F3s\ cada\ m\u00E9todo\ de\ teste\ de\ caso.\r\n
-numComments=4
+comment4.params=
+comment4.target=void\ testConstructor()
+numComments=5
