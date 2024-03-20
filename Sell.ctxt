@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Sell
+comment0.text=\r\n\ A\ sell\ of\ a\ property,\ performed\ by\ a\ seller\ to\ a\ client.\r\n\r\n\ @author\ POO\r\n\ @version\ 03/2024\r\n
+comment1.params=client\ seller\ property
+comment1.target=Sell(User,\ User,\ Property)
+comment1.text=\r\n\ Constructor\ of\ class\ Sell\r\n\r\n\ @param\ client\ The\ client\ to\ whom\ the\ sell\ is\ done.\r\n\ @param\ seller\ The\ seller\ who\ performed\ the\ sell.\r\n\ @param\ property\ The\ sold\ property.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getId()
+comment2.text=\r\n\ Get\ the\ id.\r\n\r\n\ @return\ This\ sell\ id.\r\n
+comment3.params=
+comment3.target=User\ getClient()
+comment3.text=\r\n\ Get\ the\ client.\r\n\r\n\ @return\ The\ client\ of\ this\ sell.\r\n
+comment4.params=
+comment4.target=User\ getSeller()
+comment4.text=\r\n\ Get\ the\ seller.\r\n\r\n\ @return\ The\ seller\ of\ this\ sell.\r\n
+comment5.params=
+comment5.target=Property\ getProperty()
+comment5.text=\r\n\ Get\ the\ property.\r\n\r\n\ @return\ The\ sold\ property.\r\n
+comment6.params=
+comment6.target=java.time.LocalDate\ getDate()
+comment6.text=\r\n\ Get\ the\ date.\r\n\ \r\n\ @return\ The\ sell\ date.\r\n
+comment7.params=date
+comment7.target=void\ setDate(java.time.LocalDate)
+comment7.text=\r\n\ Set\ the\ date.\r\n\r\n\ @param\ date\ The\ sell\ date.\ Must\ not\ be\ null.\ Must\ not\ be\ a\ future\ date.\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

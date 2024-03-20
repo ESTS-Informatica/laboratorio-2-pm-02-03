@@ -42,10 +42,9 @@ public class PropertyTest
     
     @Test
     public void testConstructor(){
-    
-        Property property1 = new Property("T3 Monte Belo", 150000.0);
-        System.out.println(property1);
-    
+        Property property1 = new Property("T3 Monte Belo", 150000.0);        System.out.println(property1);
+        assertEquals("T3 Monte Belo", property1.getDescription());
+        assertEquals(150000.0, property1.getPrice());
     }
 
 }
