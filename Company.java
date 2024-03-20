@@ -33,7 +33,7 @@ public class Company {
      * @return This company clients.
      */
     public List<User> getClients() {
-        return null;         // dummy implementation
+        return clients;         // dummy implementation
     }
 
     /**
@@ -42,7 +42,7 @@ public class Company {
      * @return This company sellers.
      */
     public List<User> getSellers() {
-        return null;         // dummy implementation
+        return sellers;         // dummy implementation
     }
 
     /**
@@ -51,7 +51,7 @@ public class Company {
      * @return This company's properties.
      */
     public List<Property> getProperties() {
-        return null;         // dummy implementation
+        return properties;         // dummy implementation
     }
 
     /**
@@ -60,7 +60,7 @@ public class Company {
      * @return This company sells.
      */
     public List<Sell> getSells() {
-        return null;         // dummy implementation
+        return sells;         // dummy implementation
     }
 
     /**
@@ -69,7 +69,7 @@ public class Company {
      * @param client to register. Must not be null. Must not be registered.
      * @return true If the registration succeeds, false otherwise.
      */
-    public boolean registerClient(User client) {
+    public boolean registerClient(User client) { 
         return true;         // dummy implementation
     }
 
